@@ -95,6 +95,7 @@ function obstacle(width, height, color, x, y, type) {
         this.x += this.speedX;
     }
 }
+
 function updateGameArea() {
     myGameArea.clear();
     myGamePiece.newPos();
